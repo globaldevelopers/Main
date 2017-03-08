@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
-<html>
+<html  lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@ViewBag.Title - Data Capture Solutions</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -70,13 +71,10 @@
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1 class="page-header">
-                            @RenderBody()
-                            <small>Subheading</small>
-                        </h1>
+                        @RenderBody()
                         <ol class="breadcrumb">
                             <li>
-                                <i class="fa fa-dashboard"></i> <a href="index.html">Dashboard</a>
+                                <i class="fa fa-dashboard"></i> @Html.ActionLink("Data Capture Solutions", "Index", "Home", new { area = "" })
                             </li>
                             <li class="active">
                                 <i class="fa fa-file"></i> Home Page
