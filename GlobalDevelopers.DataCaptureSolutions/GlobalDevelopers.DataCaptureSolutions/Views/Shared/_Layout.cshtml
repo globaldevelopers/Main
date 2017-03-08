@@ -22,7 +22,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Data Capture Solutions", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                    <img src="~/Content/Images/data-capture-solutions.png" alt="Data Capture Solutions Ltd">
+                </a>
+                
+                @*<img alt="Data Capture Solutions Ltd" src="~/Content/Images/data-capture-solutions.png" />*@
+                @*@Html.ActionLink("Data Capture Solutions", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
