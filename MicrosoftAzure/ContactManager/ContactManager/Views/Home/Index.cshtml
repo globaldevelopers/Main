@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ContactManager.Models.Contact>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<article>
+    <header>
+        <h1>Shalin's Website</h1><time></time>
+    </header>
+</article>
+
+<details>
+    <summary>
+        The only developer with full stack!
+    </summary>
+    <p>
+        Backend to frontend<meter value="8" min="0" max="10">8 out of 10</meter>
+    </p>
+</details>
+
+<div class="jumbotron" ng-app="omdb">
+    <div ng-controller="movieController">
+        <h1>Global Developers Ltd</h1>
+        <mark>Don't care if its stack or heap.</mark>
+        Name: {{model.name}}
+        <button ng-click="test()">Test</button>
+    </div>
+
+
+</div>
+<section id="bestsellers" class="coffeeType">
+    <header>Bestsellers  Joe's coffee</header>
+    <section class="coffeebestsellers">
+        <header class="backgroundgradient">
+            Cofees
+        </header>
+        <article class="productarticle">
+            <figure>
+                <ima class="productarticlethumbnail" scr="Images/cofee/coffee1.jpg"/>
+                <a>this is anchor</a>
+            </figure>
+        </article>
+    </section>
+</section>
+<div>
+    <ul>
+        @foreach (var contact in Model)
+        {
+            <li>@Html.Label(contact.Name)</li>
+        }
+    </ul>
+</div>

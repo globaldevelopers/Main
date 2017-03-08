@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div ng-controller="WeatherController">
+    <div class="jumbotron">
+        <h1>Global Developers Weather</h1>
+        <p class="lead">Weather forecast for london, United Kingdom.</p>
+        <p>
+            <a ng-click="GetWeather()" class="btn btn-primary btn-lg">Get Weather Forecast for London</a>
+        </p>
+    </div>
+    <div>
+        5 days weather forecast
+        <div ng-repeat="item in model">
+            Date: {{item.forecastDate}} Temperature: {{item.temperature}}
+        </div>
+    </div>
+</div>

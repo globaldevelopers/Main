@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalDevelopers.WeatherForecast", "GlobalDevelopers.WeatherForecast\GlobalDevelopers.WeatherForecast.csproj", "{D313AE7D-4970-4DBC-BC65-8A655868F005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalDevelopers.WeatherForecast.Tests", "GlobalDevelopers.WeatherForecast.Tests\GlobalDevelopers.WeatherForecast.Tests.csproj", "{ECCB4938-EE99-4F8B-8484-0D520AD425E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D313AE7D-4970-4DBC-BC65-8A655868F005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D313AE7D-4970-4DBC-BC65-8A655868F005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D313AE7D-4970-4DBC-BC65-8A655868F005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D313AE7D-4970-4DBC-BC65-8A655868F005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCB4938-EE99-4F8B-8484-0D520AD425E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCB4938-EE99-4F8B-8484-0D520AD425E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCB4938-EE99-4F8B-8484-0D520AD425E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCB4938-EE99-4F8B-8484-0D520AD425E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://logic7.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GlobalDevelopers.WeatherForecast.Tests\\GlobalDevelopers.WeatherForecast.Tests.csproj
+		SccProjectName1 = GlobalDevelopers.WeatherForecast.Tests
+		SccLocalPath1 = GlobalDevelopers.WeatherForecast.Tests
+		SccProjectUniqueName2 = GlobalDevelopers.WeatherForecast\\GlobalDevelopers.WeatherForecast.csproj
+		SccProjectName2 = GlobalDevelopers.WeatherForecast
+		SccLocalPath2 = GlobalDevelopers.WeatherForecast
+	EndGlobalSection
+EndGlobal

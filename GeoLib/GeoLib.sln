@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Services", "GeoLib.Services\GeoLib.Services.csproj", "{077D8D9A-87A4-4136-A640-D7D8640F51F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Contracts", "GeoLib.Contracts\GeoLib.Contracts.csproj", "{92038653-1182-4878-9747-5B478F7471B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Data", "GeoLib.Data\GeoLib.Data.csproj", "{D27F1AD0-C3B3-4E1B-B40A-6BAB8E21E415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Core", "GeoLib.Core\GeoLib.Core.csproj", "{1AFF7C99-DD20-4904-B8E8-817D51646F94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{CE741817-0937-4425-92FA-EAA082E19D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.ConsoleHost", "GeoLib.ConsoleHost\GeoLib.ConsoleHost.csproj", "{89A9FEEB-DF3B-432D-9507-A9044B360B19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.WebHost", "GeoLib.WebHost\GeoLib.WebHost.csproj", "{49C9FD15-E370-4DB4-A4B5-CF33E7EB1D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Proxies", "GeoLib.Proxies\GeoLib.Proxies.csproj", "{79295693-60C6-49B7-9F01-22FA1C5FA1AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Client", "GeoLib.Client\GeoLib.Client.csproj", "{850F5B72-55A3-42EF-860A-72D0114A24E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{077D8D9A-87A4-4136-A640-D7D8640F51F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077D8D9A-87A4-4136-A640-D7D8640F51F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077D8D9A-87A4-4136-A640-D7D8640F51F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077D8D9A-87A4-4136-A640-D7D8640F51F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92038653-1182-4878-9747-5B478F7471B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92038653-1182-4878-9747-5B478F7471B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92038653-1182-4878-9747-5B478F7471B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92038653-1182-4878-9747-5B478F7471B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27F1AD0-C3B3-4E1B-B40A-6BAB8E21E415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27F1AD0-C3B3-4E1B-B40A-6BAB8E21E415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27F1AD0-C3B3-4E1B-B40A-6BAB8E21E415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27F1AD0-C3B3-4E1B-B40A-6BAB8E21E415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFF7C99-DD20-4904-B8E8-817D51646F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFF7C99-DD20-4904-B8E8-817D51646F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFF7C99-DD20-4904-B8E8-817D51646F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFF7C99-DD20-4904-B8E8-817D51646F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A9FEEB-DF3B-432D-9507-A9044B360B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A9FEEB-DF3B-432D-9507-A9044B360B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A9FEEB-DF3B-432D-9507-A9044B360B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A9FEEB-DF3B-432D-9507-A9044B360B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C9FD15-E370-4DB4-A4B5-CF33E7EB1D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C9FD15-E370-4DB4-A4B5-CF33E7EB1D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C9FD15-E370-4DB4-A4B5-CF33E7EB1D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C9FD15-E370-4DB4-A4B5-CF33E7EB1D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79295693-60C6-49B7-9F01-22FA1C5FA1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79295693-60C6-49B7-9F01-22FA1C5FA1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79295693-60C6-49B7-9F01-22FA1C5FA1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79295693-60C6-49B7-9F01-22FA1C5FA1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850F5B72-55A3-42EF-860A-72D0114A24E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850F5B72-55A3-42EF-860A-72D0114A24E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850F5B72-55A3-42EF-860A-72D0114A24E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850F5B72-55A3-42EF-860A-72D0114A24E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89A9FEEB-DF3B-432D-9507-A9044B360B19} = {CE741817-0937-4425-92FA-EAA082E19D3A}
+		{49C9FD15-E370-4DB4-A4B5-CF33E7EB1D92} = {CE741817-0937-4425-92FA-EAA082E19D3A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://logic7.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GeoLib.ConsoleHost\\GeoLib.ConsoleHost.csproj
+		SccProjectTopLevelParentUniqueName1 = GeoLib.sln
+		SccProjectName1 = GeoLib.ConsoleHost
+		SccLocalPath1 = GeoLib.ConsoleHost
+		SccProjectUniqueName2 = GeoLib.Contracts\\GeoLib.Contracts.csproj
+		SccProjectName2 = GeoLib.Contracts
+		SccLocalPath2 = GeoLib.Contracts
+		SccProjectUniqueName3 = GeoLib.Core\\GeoLib.Core.csproj
+		SccProjectName3 = GeoLib.Core
+		SccLocalPath3 = GeoLib.Core
+		SccProjectUniqueName4 = GeoLib.Data\\GeoLib.Data.csproj
+		SccProjectName4 = GeoLib.Data
+		SccLocalPath4 = GeoLib.Data
+		SccProjectUniqueName5 = GeoLib.Services\\GeoLib.Services.csproj
+		SccProjectName5 = GeoLib.Services
+		SccLocalPath5 = GeoLib.Services
+		SccProjectUniqueName6 = GeoLib.WebHost\\GeoLib.WebHost.csproj
+		SccProjectTopLevelParentUniqueName6 = GeoLib.sln
+		SccProjectName6 = GeoLib.WebHost
+		SccLocalPath6 = GeoLib.WebHost
+		SccProjectUniqueName7 = GeoLib.Proxies\\GeoLib.Proxies.csproj
+		SccProjectName7 = GeoLib.Proxies
+		SccLocalPath7 = GeoLib.Proxies
+		SccProjectUniqueName8 = GeoLib.Client\\GeoLib.Client.csproj
+		SccProjectName8 = GeoLib.Client
+		SccLocalPath8 = GeoLib.Client
+	EndGlobalSection
+EndGlobal
