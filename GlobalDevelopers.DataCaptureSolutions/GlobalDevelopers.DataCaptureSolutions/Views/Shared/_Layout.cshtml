@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@ViewBag.Title - Data Capture Solutions</title>
     @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/thirdpartycss")
     @Scripts.Render("~/bundles/modernizr")
+
     
 </head>
 <body>
@@ -23,11 +25,11 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="@Url.Action("Index", "Home")">
-                    <img src="~/Content/Images/data-capture-solutions.png" alt="Data Capture Solutions Ltd">
+                    <img height="50" width="150" src="~/Content/Images/data-capture-solutions.png" alt="Data Capture Solutions Ltd">
                 </a>
                 
                 @*<img alt="Data Capture Solutions Ltd" src="~/Content/Images/data-capture-solutions.png" />*@
-                @*@Html.ActionLink("Data Capture Solutions", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+                @*@Html.ActionLink("Data Capture Solutions", "Index", "Home", new { area = "" }, new { @class = "navbar-brand hidden-sm hidden-md hidden-lg" })*@
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
@@ -78,6 +80,9 @@
                             </li>
                         </ul>
                     </li>
+                    <li>
+                        @Html.ActionLink("Alternate Table Style", "AlternateStyle", "Home")
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -87,16 +92,17 @@
                 <!-- Page Heading -->
                 <div class="row">
                     <div class="col-lg-12">
+                        
                         @RenderBody()
                         <ol class="breadcrumb">
                             <li>
-                                <i class="fa fa-dashboard"></i> @Html.ActionLink("Data Capture Solutions", "Index", "Home", new { area = "" })
+                                <i class="fa fa-dashboard"></i> @Html.ActionLink("Data Capture Solutions", "Index", "Home", new {area = ""})
                             </li>
                             <li class="active">
                                 <i class="fa fa-file"></i> Home Page
                             </li>
                         </ol>
-                        <hr />
+                        <hr/>
                         <footer>
                             <p>&copy; @DateTime.Now.Year - Global Developers Limited</p>
                         </footer>
@@ -111,8 +117,10 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/thirdpartyscripts")
     @RenderSection("scripts", required: false)
 
-   
+    
+    
 </body>
 </html>

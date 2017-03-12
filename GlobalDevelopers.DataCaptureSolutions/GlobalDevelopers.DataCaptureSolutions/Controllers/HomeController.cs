@@ -13,7 +13,7 @@ namespace GlobalDevelopers.DataCaptureSolutions.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult AlternateStyle()
         {
             ViewBag.Message = "Your application description page.";
 

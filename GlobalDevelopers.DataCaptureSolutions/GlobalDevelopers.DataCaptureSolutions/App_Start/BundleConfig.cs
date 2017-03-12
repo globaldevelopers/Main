@@ -27,6 +27,19 @@ namespace GlobalDevelopers.DataCaptureSolutions
                       "~/Content/bootstrap.css",
                       "~/Content/sb-admin.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/thirdpartyscripts")
+                .IncludeDirectory("~/Content/datatables", "*.js", true)
+                .IncludeDirectory("~/Content/datatables-plugins", "*.js", true)
+                .IncludeDirectory("~/Content/datatables-responsive", "*.js", true)
+                .Include("~/Scripts/globaldevelopersresponsive.js")
+                );
+
+            bundles.Add(new StyleBundle("~/Content/thirdpartycss")
+                .IncludeDirectory("~/Content/datatables-responsive", "*.css", true)
+                //.IncludeDirectory("~/Content/datatables-responsive", "*.scss", true)
+                .IncludeDirectory("~/Content/datatables-plugins", "*.css", true)
+                .IncludeDirectory("~/Content/datatables", "*.css", true));
         }
     }
 }
