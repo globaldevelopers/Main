@@ -1,5 +1,5 @@
 ﻿@using GlobalDevelopers.DataCaptureSolutions.Models
-@model LoginViewModel
+@model GlobalDevelopers.DataCaptureSolutions.Models.LoginViewModel
 @{
     ViewBag.Title = "Log in";
 }
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <p>
-                    @Html.ActionLink("Register as a new user", "Register")
+                    @Html.ActionLink("Register as a new user", "Register", new { @class = "btn btn-default" })
                 </p>
                 @* Enable this once you have account confirmation enabled for password reset functionality
                     <p>
@@ -51,11 +51,11 @@
             }
         </section>
     </div>
-    <div class="col-md-4">
+    @*<div class="col-md-4">
         <section id="socialLoginForm">
             @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
         </section>
-    </div>
+    </div>*@
 </div>
 
 @section Scripts {

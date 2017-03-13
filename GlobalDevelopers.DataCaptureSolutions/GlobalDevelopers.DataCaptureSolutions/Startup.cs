@@ -1,7 +1,8 @@
-﻿using Microsoft.Owin;
+﻿using GlobalDevelopers.DataCaptureSolutions;
+using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(GlobalDevelopers.DataCaptureSolutions.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 namespace GlobalDevelopers.DataCaptureSolutions
 {
     public partial class Startup
