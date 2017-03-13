@@ -29,7 +29,7 @@ namespace GlobalDevelopers.DataCaptureSolutions
                       "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/thirdpartyscripts")
-                .IncludeDirectory("~/Content/datatables", "*.js", true)
+                .IncludeDirectory("~/Content/datatables/js", "*.js", true)
                 .IncludeDirectory("~/Content/datatables-plugins", "*.js", true)
                 .IncludeDirectory("~/Content/datatables-responsive", "*.js", true)
                 .Include("~/Scripts/globaldevelopersresponsive.js")
@@ -37,9 +37,8 @@ namespace GlobalDevelopers.DataCaptureSolutions
 
             bundles.Add(new StyleBundle("~/Content/thirdpartycss")
                 .IncludeDirectory("~/Content/datatables-responsive", "*.css", true)
-                //.IncludeDirectory("~/Content/datatables-responsive", "*.scss", true)
                 .IncludeDirectory("~/Content/datatables-plugins", "*.css", true)
-                .IncludeDirectory("~/Content/datatables", "*.css", true));
+                .IncludeDirectory("~/Content/datatables/css", "*.css", true));
         }
     }
 }
